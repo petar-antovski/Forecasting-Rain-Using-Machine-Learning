@@ -34,3 +34,11 @@ In this proposed solution, we explore several machine learning models to predict
 5. The 3 best performing models, which are Logistic Regression, Support Vector Classifier and Gradient Boosting Classifier, were chosen for model stacking. 3 Ensemble Models were created using the combinations of these three classifiers. 
 
 6. Lastly the 3 best performing models and the 3 Ensmble Models were evaluated using the same metrics as above and learning curves and the results were compare to determine the best model.
+
+## Conclsuion and Results
+- By considering the balanced accuracy, F1, PR-AUC, ROC-AUC, Cohen's Kappa, Training Time and learning curve, the best model is the Stacked Classifier 2, which consists of the MLP Classifier and SVC models with default parameters as level 0 and the SGD Classifier model with default parameters as level 1.
+    - The model uses all the parameters but V1.
+
+- The model has a balanced accuracy of 0.893828, F1 score of 0.913245, PR-AUC of 0.811808, ROC-AUC of 0.936575, Cohen's Kappa score of 0.826491 and Training Time of 2613.324426s.
+
+- The model is able to generalise well on the testing data and can predict credit card fraud with an accuracy of 0.999440.
