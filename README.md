@@ -35,7 +35,7 @@ In this proposed solution, we explore several machine learning models to predict
 
 6. Lastly the 3 best performing models and the 3 Ensmble Models were evaluated using the same metrics as above and learning curves and the results were compare to determine the best model.
 
-## Conclsuion and Results
+## Conclusion and Results
 - By considering the balanced accuracy, F1, PR-AUC, ROC-AUC, Cohen's Kappa, Training Time and learning curve, the best model is the Stacked Classifier 2, which consists of the MLP Classifier and SVC models with default parameters as level 0 and the SGD Classifier model with default parameters as level 1.
     - The model uses all the parameters but V1.
 
